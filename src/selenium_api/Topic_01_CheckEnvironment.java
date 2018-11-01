@@ -18,7 +18,7 @@ public class Topic_01_CheckEnvironment {
 		System.setProperty("webdriver.chrome.driver", ".\\lib\\chromedriver.exe");
 		driver = new ChromeDriver();
 
-		// Firefox
+		// Firefox #
 //		driver = new FirefoxDriver();
 		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
